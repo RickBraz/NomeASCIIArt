@@ -8,8 +8,8 @@ namespace NomeASCIIArt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Figgle: criando textos em ASCII art");
-            Console.WriteLine("Digite seu nome");
+            Console.WriteLine("Figgle: criando textos em ASCII art.");
+            Console.Write("Digite seu nome: ");
             string SeuNome  = FiggleFonts.Standard.Render(Console.ReadLine());
             Console.WriteLine(SeuNome);
         }
